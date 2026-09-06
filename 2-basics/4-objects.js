@@ -66,10 +66,11 @@ navbar(company="rin")
    // "name":""rin",
    // "coursename":"js",
   // "price":"200"
-//}
+//
 
 
 [
     {},
     {},
+    {}
 ]
