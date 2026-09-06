@@ -40,9 +40,36 @@ const user=[
     }
 ]
 user[1].email
-console.log(x);
+//console.log(x);
 
-console.log(Object.keys(x));
-console.log(Object.values(x));
-console.log(Object.entries(x));
-console.log(x.hasOwnProperty('isloogedin'));
+//console.log(Object.keys(x));
+//console.log(Object.values(x));
+//console.log(Object.entries(x));
+//console.log(x.hasOwnProperty('isloogedin'));
+
+
+const course={
+    coursename:"js",
+    price:"500",
+    instructor:"rin"
+}
+
+const{instructor:instruc}=course
+//console.log(instruc);
+
+const navbar=({company})=>{  //destructuring
+
+}
+navbar(company="rin")
+
+//{
+   // "name":""rin",
+   // "coursename":"js",
+  // "price":"200"
+//}
+
+
+[
+    {},
+    {},
+]
