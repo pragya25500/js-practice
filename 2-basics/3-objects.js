@@ -23,12 +23,12 @@ user.greeting=function(){
     console.log("hi user");
     
 }
-//console.log(user.greeting);
-//console.log(user.greeting());
+console.log(user.greeting);
+console.log(user.greeting());
 
 user.greeting2=function(){
     console.log('hi user, ${this.name}');
     
 }
-console.log(user.greeting());
-console.log(user.greeting2());
+//console.log(user.greeting());
+//console.log(user.greeting2());
