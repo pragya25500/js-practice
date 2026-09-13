@@ -55,22 +55,22 @@ const course={
 }
 
 const{instructor:instruc}=course
-//console.log(instruc);
+console.log(instruc);
 
 const navbar=({company})=>{  //destructuring
 
 }
-navbar(company="rin")
+navbar({company:"rin"})
 
-//{
-   // "name":""rin",
-   // "coursename":"js",
-  // "price":"200"
-//
+const obj = {
+   name:"rin",
+    coursename:"js",
+   price:"200"
+};
 
-
+const arr=
 [
     {},
     {},
     {}
-]
+];
