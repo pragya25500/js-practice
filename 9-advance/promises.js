@@ -33,7 +33,7 @@ promiseThree.then(function(user){
 
 const promiseFour = new Promise(function(resolve, reject){
     setTimeout(function(){
-        let error = true
+        let error = false
         if (!error) {
             resolve({username: "rin", password: "123"})
         } else {
@@ -56,11 +56,11 @@ const promiseFour = new Promise(function(resolve, reject){
 
 const promiseFive = new Promise(function(resolve, reject){
     setTimeout(function(){
-        let error = true
+        let error = false
         if (!error) {
-            resolve({username: "javascript", password: "123"})
+            resolve({username: "pragya", password: "123"})
         } else {
-            reject('ERROR: JS went wrong')
+            reject('ERROR')
         }
     }, 1000)
 });
@@ -99,4 +99,3 @@ fetch('https://api.github.com/users/pragya25500')
 .catch((error) => console.log(error))
 
 // promise.all
-// yes this is also available, kuch reading aap b kro.
